@@ -73,3 +73,8 @@ deploy:
   user: root
   root: /var/www/html
   port: 27377
+
+math:
+  engine: 'mathjax'
+  mathjax:
+    src: '//cdn.bootcss.com/mathjax/2.7.1/latest.js'
