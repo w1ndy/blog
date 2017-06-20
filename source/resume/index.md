@@ -1,6 +1,7 @@
 ---
 title: R&eacute;sum&eacute;
 date: 2017-06-19 12:43:38
+comments: false
 ---
 <p style="line-height: 10px"></p>
 
