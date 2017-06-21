@@ -36,7 +36,7 @@ comments: false
     border: 1px solid #ddd;
     display: inline-block;
     text-align: center;
-    margin: 0 2px;
+    margin: 0 2px 10px 0;
     user-select: none;
     cursor: default;
 }
