@@ -65,7 +65,7 @@ Hi, I'm Di Weng (翁荻), a first year Computer Science Ph.D. student at Zhejian
     font-size: 14px;
 }
 .publication-entry .entry-content a {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 .publication-entry .entry-content a::before {
     content: '[ ';
