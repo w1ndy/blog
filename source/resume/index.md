@@ -5,12 +5,13 @@ comments: false
 ---
 <p style="line-height: 10px"></p>
 
-Hi, I'm Di Weng (翁荻), a first year Computer Science Ph.D. student at Zhejiang University (as of 2017), supervised by [Prof. Yingcai Wu](http://www.ycwu.org/). Currently, my major research interest lies in _Visual Analytics_ and _Urban Computing_.
+Hi, I'm Di Weng (翁荻), a second year Computer Science Ph.D. student at State Key Lab of CAD&CG, Zhejiang University (as of 2017), a [ZJUVIS](http://zjuvis.org) team member supervised by [Prof. Yingcai Wu](http://www.ycwu.org/). Currently, my major research interest lies in _Visual Analytics_ and _Urban Computing_.
 
 {% raw %}
 <style>
 .cv{
     line-height: 1.5;
+    padding-bottom: 10px;
 }
 .section-header {
     font-weight: 600;
@@ -23,25 +24,30 @@ Hi, I'm Di Weng (翁荻), a first year Computer Science Ph.D. student at Zhejian
     background-color: #fff;
     padding: 0 10px;
 }
-.dated-entry {
+
+.dated-entry,
+.award-entry {
     display: flex;
     flex-direction: row;
     padding: 0 50px 15px 50px;
 }
-.dated-entry > div:first-child {
+.dated-entry > div:first-child,
+.award-entry > div:first-child {
     flex: 0 0 20%;
     font-style: italic;
     text-align: right;
     padding-right: 10px;
 }
-.dated-entry > div:last-child {
+.dated-entry > div:last-child,
+.award-entry > div:last-child {
     flex: 1 1;
 }
 .entry-content {
     font-size: 14px;
 }
+
 .publication-entry {
-    margin: 0 50px 15px 50px;
+    padding: 0 50px 15px 50px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -72,6 +78,14 @@ Hi, I'm Di Weng (翁荻), a first year Computer Science Ph.D. student at Zhejian
 }
 .publication-entry .entry-content a::after {
     content: ' ]';
+}
+
+.award-entry {
+    font-size: 14px;
+    padding: 0 50px 5px 50px;
+}
+.award-entry > div:first-child {
+    flex: 0 0 12%;
 }
 </style>
 <div class="cv">
@@ -125,6 +139,41 @@ Hi, I'm Di Weng (翁荻), a first year Computer Science Ph.D. student at Zhejian
                 <a href="http://smartadp.chinacloudapp.cn/">
                     <i class="fa fa-cubes" aria-hidden="true"></i> System
                 </a>
+            </div>
+        </div>
+    </div>
+    <div class="section-header"><span>AWARDS</span></div>
+    <div>
+        <div class="award-entry">
+            <div>2015</div>
+            <div>
+                <div class="entry-title">
+                    COMAP Mathematical Contest in Modelling&nbsp;&nbsp;&middot;&nbsp;&nbsp;<b>Honorable Mention</b>
+                </div>
+            </div>
+        </div>
+        <div class="award-entry">
+            <div>2014</div>
+            <div>
+                <div class="entry-title">
+                    ACM-ICPC China Shanghai Invitational Programming Contest&nbsp;&nbsp;&middot;&nbsp;&nbsp;<b>Bronze</b>
+                </div>
+            </div>
+        </div>
+        <div class="award-entry">
+            <div></div>
+            <div>
+                <div class="entry-title">
+                    ACM-ICPC China Beijing Invitational Programming Contest&nbsp;&nbsp;&middot;&nbsp;&nbsp;<b>Bronze</b>
+                </div>
+            </div>
+        </div>
+        <div class="award-entry">
+            <div></div>
+            <div>
+                <div class="entry-title">
+                    Shandong ACM-ICPC Provincial Contest&nbsp;&nbsp;&middot;&nbsp;&nbsp;<b>Silver</b>
+                </div>
             </div>
         </div>
     </div>

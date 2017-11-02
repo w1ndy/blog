@@ -6,6 +6,14 @@ comments: false
 
 {% raw %}
 <style>
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 .gallery {
     margin-top: 40px;
     display: flex;
@@ -15,8 +23,11 @@ comments: false
     flex: 0 0 33%;
 }
 .image {
+    animation-name: slidein;
+    animation-duration: 0.5s;
     margin: 5px;
     padding-top: 100%;
+    background-color: #ddd;
     background-size: cover;
     border: 1px solid #ddd;
     background-position: center;
@@ -114,7 +125,7 @@ comments: false
         initializeGalleryPage();
         document.body.scrollTop = 0;
     };
-    fetch('http://orwaz3d8t.bkt.clouddn.com/images.json?v=1')
+    fetch('https://images.polymorphism.ac.cn/images.json?v=2')
     .then(resp => resp.json())
     .then(images => {
         imageUrls = images.urls;
