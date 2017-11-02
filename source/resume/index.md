@@ -5,7 +5,7 @@ comments: false
 ---
 <p style="line-height: 10px"></p>
 
-Hi, I'm Di Weng (翁荻), a second year Computer Science Ph.D. student at State Key Lab of CAD&CG, Zhejiang University (as of 2017), a [ZJUVIS](http://zjuvis.org) team member supervised by [Prof. Yingcai Wu](http://www.ycwu.org/). Currently, my major research interest lies in _Visual Analytics_ and _Urban Computing_.
+Hi, I'm Di Weng (翁荻), a second year Computer Science Ph.D. student at State Key Lab of CAD&CG, Zhejiang University (as of 2017) and a [ZJUVIS](http://zjuvis.org) team member supervised by [Prof. Yingcai Wu](http://www.ycwu.org/). Currently, my major research interest lies in _Visual Analytics_ and _Urban Computing_.
 
 {% raw %}
 <style>
@@ -122,7 +122,7 @@ Hi, I'm Di Weng (翁荻), a second year Computer Science Ph.D. student at State 
             </div>
             <div></div>
             <div class="entry-author" title="Dongyu Liu, Di Weng, Yuhong Li, Jie Bao, Yu Zheng, Huamin Qu, Yingcai Wu">
-                Dongyu Liu, Di Weng, Yuhong Li, Jie Bao, Yu Zheng, Huamin Qu, Yingcai Wu
+                Dongyu Liu, <b>Di Weng</b>, Yuhong Li, Jie Bao, Yu Zheng, Huamin Qu, Yingcai Wu
             </div>
             <div></div>
             <div class="entry-journal" title="IEEE Transactions on Visualization and Computer Graphics, 2017, 23(1): 1-10.">
