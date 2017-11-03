@@ -153,7 +153,7 @@ Hi, I'm Di Weng (翁荻), a second year Computer Science Ph.D. student at State 
             </div>
         </div>
         <div class="award-entry">
-            <div></div>
+            <div>2014</div>
             <div>
                 <div class="entry-title">
                     ACM-ICPC China Beijing Invitational Programming Contest&nbsp;&nbsp;&middot;&nbsp;&nbsp;<b>Bronze</b>
