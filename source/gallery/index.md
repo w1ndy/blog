@@ -39,6 +39,7 @@ comments: false
 .pagination-cont {
     width: fit-content;
     margin: 40px auto;
+    text-align: center;
 }
 .page-button {
     width: 30px;
@@ -125,7 +126,7 @@ comments: false
         initializeGalleryPage();
         document.body.scrollTop = 0;
     };
-    fetch('https://images.polymorphism.ac.cn/images.json?v=2')
+    fetch('https://static.polymorphism.ac.cn/gallery.json')
     .then(resp => resp.json())
     .then(images => {
         imageUrls = images.urls;
